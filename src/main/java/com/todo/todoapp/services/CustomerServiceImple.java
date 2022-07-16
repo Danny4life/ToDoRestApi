@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class CustomerServiceImple implements CustomerServices{
+public class CustomerServiceImple implements CustomerServices {
 
     final CustomerRepo customerRepo;
     final TaskRepo taskRepo;
