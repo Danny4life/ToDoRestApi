@@ -58,7 +58,7 @@ public class CustomerController {
     }
 
     @RequestMapping("/view_one/{id}")
-    public TaskResponseDto viewOne( @PathVariable Long id) {
+    public TaskResponseDto viewOne( @PathVariable Long id){
         CustomerServiceImple serviceImple=new CustomerServiceImple(customerRepo,taskRepo,status);
         return serviceImple.viewOne(id);
     }
