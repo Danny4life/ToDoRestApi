@@ -10,7 +10,6 @@ import com.todo.todoapp.models.Tasks;
 
 import java.util.List;
 
-
 public interface CustomerServices {
 
     public void createUser(CustomerDto customerDto);
