@@ -10,7 +10,7 @@ import com.todo.todoapp.models.Tasks;
 
 import java.util.List;
 
-public interface CustomerServices {
+public interface CustomerServices{
 
     public void createUser(CustomerDto customerDto);
     public void createTask(TaskDto taskDto, Customers customers);
