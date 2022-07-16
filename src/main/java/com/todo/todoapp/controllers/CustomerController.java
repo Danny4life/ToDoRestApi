@@ -36,7 +36,7 @@ public class CustomerController {
     }
 
     @RequestMapping("/signup")
-    public ResponseEntity<String>signup(@RequestBody CustomerDto customerDto){
+    public ResponseEntity<String>signup(@RequestBody CustomerDto customerDto) {
         CustomerServiceImple serviceImple=new CustomerServiceImple(customerRepo,taskRepo,status);
         //CustomerDto customerDto=new CustomerDto();
         serviceImple.createUser(customerDto);
